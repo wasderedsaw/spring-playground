@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Негры</title>
+</head>
+<body>
+<form action="#" th:action="@{/create_user}" th:object="${user}" method="post">
+  <p>
+    Name: <input type="text" th:field="*{username}">
+  </p>
+  <p>
+    Name: <input type="text" th:field="*{email}">
+  </p>
+  <p>
+    Name: <input type="text" th:field="*{password}">
+  </p>
+  <p>
+    <input type="submit" value="Submit"/> <input type="reset" value="Reset">
+  </p>
+</form>
+</body>
+</html>
